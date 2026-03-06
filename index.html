@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gavin as a Service — practical videos on homelabs, automation, and useful tech builds." />
+  <title>Gavin as a Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=7" />
+</head>
+<body>
+
+  <div class="wrap">
+    <header class="nav">
+      <div class="nav-left">
+        <a class="social-icon" href="https://youtube.com/@GavinAsAService" target="_blank" rel="noopener" title="YouTube">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-label="YouTube"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a class="social-icon" href="https://hometech.fm" target="_blank" rel="noopener" title="HomeTech.fm">
+          <svg width="22" height="22" viewBox="41 38 776 513" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-label="HomeTech.fm">
+            <g transform="translate(41,38)">
+              <polygon points="322 276 462 276 462 513 322 513"/>
+              <path d="M387.804402,0 L388.107,0.303 L388.195598,0.215817168 L547.782,159.571 L547.782145,47.0207226 L612.933349,47.0207226 L612.933,224.627 L776,387.457784 L721.378566,442 L387.891,108.997 L54.6214342,441.784183 L0,387.241966 Z"/>
+            </g>
+          </svg>
+        </a>
+        <a class="social-icon" href="https://hometech.social/@GavinCampbell" target="_blank" rel="noopener me" title="Mastodon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-label="Mastodon"><path d="M21.327 8.566c0-4.339-2.843-5.61-2.843-5.61-1.433-.658-3.894-.935-6.451-.956h-.063c-2.557.021-5.016.298-6.45.956 0 0-2.843 1.272-2.843 5.61 0 .993-.019 2.181.012 3.441.103 4.243.778 8.425 4.701 9.463 1.809.479 3.362.579 4.612.51 2.268-.126 3.542-.809 3.542-.809l-.075-1.646s-1.621.511-3.441.449c-1.804-.062-3.707-.194-3.999-2.409a4.523 4.523 0 0 1-.04-.621s1.77.433 4.014.536c1.372.063 2.658-.08 3.965-.236 2.506-.299 4.688-1.843 4.962-3.254.434-2.223.398-5.424.398-5.424zm-3.353 5.59h-2.081V9.057c0-1.075-.452-1.62-1.357-1.62-1 0-1.501.647-1.501 1.927v2.791h-2.069V9.364c0-1.28-.501-1.927-1.502-1.927-.905 0-1.357.545-1.357 1.62v5.099H6.026V8.903c0-1.074.273-1.927.823-2.558.566-.631 1.307-.955 2.228-.955 1.065 0 1.872.409 2.405 1.228l.518.869.519-.869c.533-.819 1.34-1.228 2.405-1.228.92 0 1.662.324 2.228.955.549.631.822 1.484.822 2.558v5.253z"/></svg>
+        </a>
+        <a class="social-icon" href="https://x.com/GvnCampbell" target="_blank" rel="noopener" title="X / Twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-label="X / Twitter"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+      </div>
+      <button class="btn" id="contact-btn">Contact Me</button>
+    </header>
+
+    <section class="hero">
+      <img src="assets/logo.png" alt="Gavin as a Service" class="hero-logo" />
+      <p>Practical videos on homelabs, automation, and useful tech builds. Also co-hosting <a href="https://hometech.fm" target="_blank" rel="noopener">HomeTech.fm</a>.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://youtube.com/@GavinAsAService" target="_blank" rel="noopener">Watch on YouTube</a>
+        <a class="btn" href="https://hometech.fm" target="_blank" rel="noopener">Listen to the Podcast</a>
+      </div>
+    </section>
+
+    <div class="featured-grid">
+
+      <!-- Latest YouTube Video -->
+      <article class="feature-card" id="yt-card">
+        <div class="card-label">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          Latest Video
+        </div>
+        <div id="yt-embed-wrap">
+          <div class="embed-placeholder" id="yt-placeholder">
+            <a class="placeholder-link" href="https://youtube.com/@GavinAsAService" target="_blank" rel="noopener">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor" style="color:#39a0ff;opacity:.7"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              <span>Watch on YouTube →</span>
+            </a>
+          </div>
+        </div>
+        <div class="card-meta" id="yt-meta">
+          <div class="skeleton-line" style="width:80%"></div>
+          <div class="skeleton-line" style="width:40%"></div>
+        </div>
+      </article>
+
+      <!-- Latest Podcast Episode -->
+      <article class="feature-card" id="podcast-card">
+        <div class="card-label">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a11 11 0 1 0 0 22A11 11 0 0 0 12 1zm0 2a9 9 0 1 1 0 18A9 9 0 0 1 12 3zm0 2.5a4.5 4.5 0 0 0-4.5 4.5c0 1.93 1.22 3.58 2.94 4.22-.04.32-.07.63-.07.92C10.37 17.2 11.16 19 12 19s1.63-1.8 1.63-3.86c0-.29-.03-.6-.07-.92A4.5 4.5 0 0 0 12 5.5zm0 2a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"/></svg>
+          Latest Episode — HomeTech.fm
+        </div>
+        <div class="podcast-body" id="podcast-body">
+          <div class="skeleton-line" style="width:70%"></div>
+          <div class="skeleton-line" style="width:30%"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line" style="width:90%"></div>
+          <div class="skeleton-line" style="width:60%"></div>
+        </div>
+      </article>
+
+    </div>
+
+    <footer class="foot">
+      <span>© 2026 Gavin as a Service</span>
+      <span class="foot-disclaimer">This site was built with help from AI</span>
+    </footer>
+  </div>
+
+  <!-- Contact Modal — lives at end of body so it never renders before CSS -->
+  <div id="modal-overlay" style="display:none" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+      <h2 id="modal-title">Get in Touch</h2>
+      <p class="modal-sub">Have a project idea or question? Drop me a message.</p>
+      <form id="contact-form" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="cf-name">Name</label>
+        <input id="cf-name" name="name" type="text" placeholder="Your name" required />
+        <label for="cf-email">Email</label>
+        <input id="cf-email" name="email" type="email" placeholder="you@example.com" required />
+        <label for="cf-msg">Message</label>
+        <textarea id="cf-msg" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+        <button class="btn primary submit-btn" type="submit">Send Message</button>
+      </form>
+      <p id="form-thanks" class="form-thanks" hidden>Thanks! I'll get back to you soon. ✅</p>
+    </div>
+  </div>
+
+  <script>
+    // ── Contact Modal ─────────────────────────────────────────────
+    const overlay  = document.getElementById('modal-overlay');
+    const closeBtn = document.getElementById('modal-close');
+    const openBtn  = document.getElementById('contact-btn');
+    const form     = document.getElementById('contact-form');
+    const thanks   = document.getElementById('form-thanks');
+
+    function openModal()  { overlay.style.display = 'flex'; overlay.removeAttribute('aria-hidden'); document.body.style.overflow = 'hidden'; }
+    function closeModal() { overlay.style.display = 'none'; overlay.setAttribute('aria-hidden','true'); document.body.style.overflow = ''; }
+
+    openBtn.addEventListener('click', openModal);
+    closeBtn.addEventListener('click', closeModal);
+    overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+      const btn = form.querySelector('.submit-btn');
+      btn.textContent = 'Sending…'; btn.disabled = true;
+      try {
+        const res = await fetch(form.action, { method:'POST', body: new FormData(form), headers:{ Accept:'application/json' } });
+        if (res.ok) { form.hidden = true; thanks.hidden = false; }
+        else { btn.textContent = 'Try again'; btn.disabled = false; }
+      } catch { btn.textContent = 'Try again'; btn.disabled = false; }
+    });
+
+    const R2J = 'https://api.rss2json.com/v1/api.json?rss_url=';
+
+    // ── Latest YouTube Video ──────────────────────────────────────
+    const YT_FEED = 'https://www.youtube.com/feeds/videos.xml?channel_id=UC6I1agrkvdtbxMjNtC8Daqg';
+    async function loadYouTube() {
+      try {
+        const data = await fetch(R2J + encodeURIComponent(YT_FEED)).then(r => r.json());
+        const item = data.items?.[0];
+        if (!item) return;
+        const url = item.link || '';
+        const videoId = url.includes('/shorts/')
+          ? url.split('/shorts/')[1]?.split('?')[0]
+          : url.split('v=')[1]?.split('&')[0] || '';
+        const embedWrap = document.getElementById('yt-embed-wrap');
+        const meta = document.getElementById('yt-meta');
+        if (videoId) {
+          const thumb = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+          embedWrap.innerHTML = `
+            <a href="${item.link}" target="_blank" rel="noopener" class="thumb-link">
+              <img class="thumb-img" src="${thumb}" alt="${item.title}"
+                onerror="this.src='https://img.youtube.com/vi/${videoId}/hqdefault.jpg'" />
+              <span class="thumb-play">▶</span>
+            </a>`;
+        }
+        const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-CA', { year:'numeric', month:'short', day:'numeric' }) : '';
+        meta.innerHTML = `<a class="meta-title" href="${item.link}" target="_blank" rel="noopener">${item.title}</a><span class="meta-date">${date}</span>`;
+      } catch (e) {
+        console.warn('YouTube feed error', e);
+      }
+    }
+
+    // ── Latest Podcast Episode ────────────────────────────────────
+    const HT_FEED = 'https://www.hometech.fm/shows?format=rss';
+    async function loadPodcast() {
+      try {
+        const data = await fetch(R2J + encodeURIComponent(HT_FEED)).then(r => r.json());
+        const item = data.items?.[0];
+        if (!item) return;
+        const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-CA', { year:'numeric', month:'short', day:'numeric' }) : '';
+        const artwork = data.feed?.image || item.thumbnail || '';
+        const tmp = document.createElement('div');
+        tmp.innerHTML = item.description || '';
+        const desc = (tmp.textContent || '').trim().slice(0, 200);
+        const artworkImg = artwork
+          ? `<img class="podcast-art" src="${artwork}" alt="Podcast artwork" />`
+          : '';
+        document.getElementById('podcast-body').innerHTML = `
+          <div class="podcast-art-row">
+            ${artworkImg}
+            <div class="podcast-text">
+              <a class="ep-title" href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+              <span class="ep-date">${date}</span>
+            </div>
+          </div>
+          <p class="ep-desc">${desc}${desc.length >= 200 ? '…' : ''}</p>
+          <a class="btn ep-btn" href="${item.link}" target="_blank" rel="noopener">Listen Now →</a>
+        `;
+      } catch (e) {
+        console.warn('Podcast feed error', e);
+        document.getElementById('podcast-body').innerHTML = `<a class="btn ep-btn" href="https://hometech.fm" target="_blank" rel="noopener">Visit HomeTech.fm →</a>`;
+      }
+    }
+
+    loadYouTube();
+    loadPodcast();
+  </script>
+</body>
+</html>
