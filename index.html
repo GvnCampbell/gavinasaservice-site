@@ -136,71 +136,56 @@
       } catch { btn.textContent = 'Try again'; btn.disabled = false; }
     });
 
-    const R2J = 'https://api.rss2json.com/v1/api.json?rss_url=';
-
-    // ── Latest YouTube Video ──────────────────────────────────────
-    const YT_FEED = 'https://www.youtube.com/feeds/videos.xml?channel_id=UC6I1agrkvdtbxMjNtC8Daqg';
-    async function loadYouTube() {
+    // ── Load feed data from pre-fetched JSON (updated by GitHub Actions) ──
+    async function loadFeeds() {
+      let data;
       try {
-        const data = await fetch(R2J + encodeURIComponent(YT_FEED)).then(r => r.json());
-        const item = data.items?.[0];
-        if (!item) return;
-        const url = item.link || '';
-        const videoId = url.includes('/shorts/')
-          ? url.split('/shorts/')[1]?.split('?')[0]
-          : url.split('v=')[1]?.split('&')[0] || '';
+        data = await fetch('data/latest.json?_=' + Date.now()).then(r => r.json());
+      } catch (e) {
+        console.warn('Could not load feed data', e);
+        return;
+      }
+
+      // ── Latest YouTube Video ──────────────────────────────────
+      const yt = data.youtube;
+      if (yt) {
         const embedWrap = document.getElementById('yt-embed-wrap');
         const meta = document.getElementById('yt-meta');
-        if (videoId) {
-          const thumb = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
-          embedWrap.innerHTML = `
-            <a href="${item.link}" target="_blank" rel="noopener" class="thumb-link">
-              <img class="thumb-img" src="${thumb}" alt="${item.title}"
-                onerror="this.src='https://img.youtube.com/vi/${videoId}/hqdefault.jpg'" />
-              <span class="thumb-play">▶</span>
-            </a>`;
-        }
-        const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-CA', { year:'numeric', month:'short', day:'numeric' }) : '';
-        meta.innerHTML = `<a class="meta-title" href="${item.link}" target="_blank" rel="noopener">${item.title}</a><span class="meta-date">${date}</span>`;
-      } catch (e) {
-        console.warn('YouTube feed error', e);
+        embedWrap.innerHTML = `
+          <a href="${yt.link}" target="_blank" rel="noopener" class="thumb-link">
+            <img class="thumb-img" src="${yt.thumb}" alt="${yt.title}"
+              onerror="this.src='https://img.youtube.com/vi/${yt.videoId}/hqdefault.jpg'" />
+            <span class="thumb-play">▶</span>
+          </a>`;
+        const date = yt.pubDate ? new Date(yt.pubDate).toLocaleDateString('en-CA', { year:'numeric', month:'short', day:'numeric' }) : '';
+        meta.innerHTML = `<a class="meta-title" href="${yt.link}" target="_blank" rel="noopener">${yt.title}</a><span class="meta-date">${date}</span>`;
       }
-    }
 
-    // ── Latest Podcast Episode ────────────────────────────────────
-    const HT_FEED = 'https://www.hometech.fm/shows?format=rss';
-    async function loadPodcast() {
-      try {
-        const data = await fetch(R2J + encodeURIComponent(HT_FEED)).then(r => r.json());
-        const item = data.items?.[0];
-        if (!item) return;
-        const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-CA', { year:'numeric', month:'short', day:'numeric' }) : '';
-        const artwork = data.feed?.image || item.thumbnail || '';
-        const tmp = document.createElement('div');
-        tmp.innerHTML = item.description || '';
-        const desc = (tmp.textContent || '').trim().slice(0, 200);
-        const artworkImg = artwork
-          ? `<img class="podcast-art" src="${artwork}" alt="Podcast artwork" />`
+      // ── Latest Podcast Episode ────────────────────────────────
+      const ep = data.podcast;
+      if (ep) {
+        const date = ep.pubDate ? new Date(ep.pubDate).toLocaleDateString('en-CA', { year:'numeric', month:'short', day:'numeric' }) : '';
+        const artworkImg = ep.artwork
+          ? `<img class="podcast-art" src="${ep.artwork}" alt="Podcast artwork" />`
           : '';
+        const desc = ep.desc || '';
         document.getElementById('podcast-body').innerHTML = `
           <div class="podcast-art-row">
             ${artworkImg}
             <div class="podcast-text">
-              <a class="ep-title" href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+              <a class="ep-title" href="${ep.link}" target="_blank" rel="noopener">${ep.title}</a>
               <span class="ep-date">${date}</span>
             </div>
           </div>
           <p class="ep-desc">${desc}${desc.length >= 200 ? '…' : ''}</p>
-          <a class="btn ep-btn" href="${item.link}" target="_blank" rel="noopener">Listen Now →</a>
+          <a class="btn ep-btn" href="${ep.link}" target="_blank" rel="noopener">Listen Now →</a>
         `;
-      } catch (e) {
-        console.warn('Podcast feed error', e);
+      } else {
         document.getElementById('podcast-body').innerHTML = `<a class="btn ep-btn" href="https://hometech.fm" target="_blank" rel="noopener">Visit HomeTech.fm →</a>`;
       }
     }
 
-    loadYouTube();
-    loadPodcast();
+    loadFeeds();
   </script>
 </body>
 </html>
