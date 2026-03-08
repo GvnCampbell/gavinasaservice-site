@@ -1,11 +1,4 @@
 {
-  "youtube": {
-    "videoId": "HCVIffzTwtU",
-    "title": "Zooz ZSE41 Open Close XS Sensor #shorts #zooz #smarthome #zwave",
-    "link": "https://www.youtube.com/shorts/HCVIffzTwtU",
-    "pubDate": "2026-02-13T01:38:43+00:00",
-    "thumb": "https://img.youtube.com/vi/HCVIffzTwtU/maxresdefault.jpg"
-  },
   "podcast": {
     "title": "Episode 564 - E-Ink Everything",
     "link": "https://www.hometech.fm/shows/564",
@@ -13,5 +6,5 @@
     "desc": "On this week\u2019s show: Google Home lets you delete its pre-made routines, Sonos shows profit but not growth, IKEA\u2019s leaked Matter light driver, Heiman joins Works with Home Assistant with Thread-based s",
     "artwork": "https://images.squarespace-cdn.com/content/v1/52d92d1ee4b049910d1d83b1/1700482735424-0NS5U4VIP1Z2HWPD1226/HTP-v3-ShowLogo-fs8.png?format=1500w"
   },
-  "fetchedAt": "2026-03-08T04:40:17.725515+00:00"
+  "fetchedAt": "2026-03-08T06:36:25.462856+00:00"
 }
