@@ -1,4 +1,11 @@
 {
+  "youtube": {
+    "videoId": "L21C9FbR1Vw",
+    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
+    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
+    "pubDate": "2026-03-18T21:45:24+00:00",
+    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
+  },
   "podcast": {
     "title": "Episode 566 - Peculiar Projects",
     "link": "https://www.hometech.fm/shows/566",
@@ -6,5 +13,5 @@
     "desc": "On this week\u2019s show: iRobot comes back from bankruptcy with a tiny Roomba Mini that won\u2019t launch in the US, Homey adds Python support to open the app floodgates, Sonos launches a new portable Play spe",
     "artwork": "https://images.squarespace-cdn.com/content/v1/52d92d1ee4b049910d1d83b1/1700482735424-0NS5U4VIP1Z2HWPD1226/HTP-v3-ShowLogo-fs8.png?format=1500w"
   },
-  "fetchedAt": "2026-03-19T06:52:26.076255+00:00"
+  "fetchedAt": "2026-03-19T09:38:05.077367+00:00"
 }
