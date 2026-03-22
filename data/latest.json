@@ -13,5 +13,14 @@
     "desc": "On this week\u2019s show: UniFi drops Protect 7.0 with customizable dashboards, smarter event review, local AI image search, and a $4,999 Enterprise NVR Core to store all that footage\u2014plus a $39 Relay and ",
     "artwork": "https://images.squarespace-cdn.com/content/v1/52d92d1ee4b049910d1d83b1/1700482735424-0NS5U4VIP1Z2HWPD1226/HTP-v3-ShowLogo-fs8.png?format=1500w"
   },
+  "appearances": [
+    {
+      "show": "Home Gadget Geeks",
+      "title": "Home Gadget Geeks 675 \u2014 LIVE",
+      "videoId": "sqUo1-nFUVc",
+      "link": "https://www.youtube.com/watch?v=sqUo1-nFUVc",
+      "pubDate": "2026-03-22"
+    }
+  ],
   "fetchedAt": "2026-03-22T12:39:36.245320+00:00"
 }

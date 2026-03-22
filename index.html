@@ -12,7 +12,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-  <link rel="stylesheet" href="styles.css?v=7" />
+  <link rel="stylesheet" href="styles.css?v=8" />
 </head>
 <body>
 
@@ -87,6 +87,15 @@
       </article>
 
     </div>
+
+    <!-- ── Latest Guest Appearances ───────────────────────────── -->
+    <section class="appearances" id="appearances-section" style="display:none">
+      <h2 class="section-heading">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a5 5 0 1 1 0 10A5 5 0 0 1 12 2zm0 12c5.33 0 8 2.67 8 4v2H4v-2c0-1.33 2.67-4 8-4z"/></svg>
+        Latest Guest Appearances
+      </h2>
+      <div class="appearances-grid" id="appearances-grid"></div>
+    </section>
 
     <footer class="foot">
       <span>© 2026 Gavin as a Service</span>
@@ -186,6 +195,32 @@
         `;
       } else {
         document.getElementById('podcast-body').innerHTML = `<a class="btn ep-btn" href="https://hometech.fm" target="_blank" rel="noopener">Visit HomeTech.fm →</a>`;
+      }
+
+      // ── Guest Appearances ─────────────────────────────────────
+      const appearances = data.appearances;
+      if (appearances && appearances.length > 0) {
+        const ytIcon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>`;
+        document.getElementById('appearances-grid').innerHTML = appearances.map(a => {
+          const thumb = `https://img.youtube.com/vi/${a.videoId}/maxresdefault.jpg`;
+          const fallback = `https://img.youtube.com/vi/${a.videoId}/hqdefault.jpg`;
+          const date = a.pubDate ? new Date(a.pubDate).toLocaleDateString('en-CA', { year:'numeric', month:'short', day:'numeric' }) : '';
+          return `
+            <article class="feature-card appearance-card">
+              <div class="card-label">${ytIcon} Guest Appearance</div>
+              <a class="thumb-link" href="${a.link}" target="_blank" rel="noopener">
+                <img class="thumb-img" src="${thumb}" alt="${a.title}" onerror="this.src='${fallback}'" />
+                <span class="thumb-play">▶</span>
+              </a>
+              <div class="appearance-meta">
+                <span class="appearance-show">${a.show}</span>
+                <a class="meta-title" href="${a.link}" target="_blank" rel="noopener">${a.title}</a>
+                ${date ? `<span class="meta-date">${date}</span>` : ''}
+                <a class="btn ep-btn" href="${a.link}" target="_blank" rel="noopener">Watch Now →</a>
+              </div>
+            </article>`;
+        }).join('');
+        document.getElementById('appearances-section').style.display = '';
       }
     }
 

@@ -308,6 +308,42 @@ a:hover { text-decoration: underline; }
 .submit-btn { margin-top: 4px; padding: 12px 24px; font-size: 15px; }
 .form-thanks { margin: 12px 0 0; text-align: center; color: #7ad0a0; font-weight: 600; }
 
+/* ── Guest Appearances ── */
+.appearances {
+  margin-top: 40px;
+}
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+  margin: 0 0 14px;
+}
+.appearances-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+}
+.appearance-card {
+  /* inherits .feature-card styles */
+}
+.appearance-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.appearance-show {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--accent2);
+}
+
 /* ── Footer ── */
 .foot {
   display: flex;
