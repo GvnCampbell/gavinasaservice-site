@@ -1,11 +1,4 @@
 {
-  "youtube": {
-    "videoId": "L21C9FbR1Vw",
-    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
-    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
-    "pubDate": "2026-03-18T21:45:24+00:00",
-    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
-  },
   "podcast": {
     "title": "Episode 568 - Smart Home, Dumb Ads",
     "link": "https://www.hometech.fm/shows/568",
@@ -13,5 +6,5 @@
     "desc": "On this week's show: Josh.ai takes smart homes to a whole new level of language learning, Amazon\u2019s Alexa+ crosses the pond with a serious accent, Telus launches an all-Canadian AI butler, and Hisense ",
     "artwork": "https://images.squarespace-cdn.com/content/v1/52d92d1ee4b049910d1d83b1/25410faa-b96d-4399-b7e8-4424e5002276/568-SmartHomeDumbads.png?format=1500w"
   },
-  "fetchedAt": "2026-03-31T01:56:14.785103+00:00"
+  "fetchedAt": "2026-03-31T05:05:11.495146+00:00"
 }
