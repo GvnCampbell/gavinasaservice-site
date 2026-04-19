@@ -1,11 +1,4 @@
 {
-  "youtube": {
-    "videoId": "L21C9FbR1Vw",
-    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
-    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
-    "pubDate": "2026-03-18T21:45:24+00:00",
-    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
-  },
   "podcast": {
     "title": "Episode 570 - The Gift and the Curse",
     "link": "https://www.hometech.fm/shows/570",
@@ -13,5 +6,5 @@
     "desc": "On this week's show: Google finally lets Workspace users into the Google Home party, Aqara keeps busy with new hubs, thermostats, and sensors, Samsung trims the price tag on its 2026 Frame TVs, Hisens",
     "artwork": "https://images.squarespace-cdn.com/content/v1/52d92d1ee4b049910d1d83b1/871990a3-d7ac-431d-9530-74ef16ab2537/curse_of_the_printer.png?format=1500w"
   },
-  "fetchedAt": "2026-04-18T21:29:20.855172+00:00"
+  "fetchedAt": "2026-04-19T02:08:44.133332+00:00"
 }
