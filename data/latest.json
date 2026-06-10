@@ -1,11 +1,4 @@
 {
-  "youtube": {
-    "videoId": "L21C9FbR1Vw",
-    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
-    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
-    "pubDate": "2026-03-18T21:45:24+00:00",
-    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
-  },
   "podcast": {
     "title": "Episode 577 - eero Phone Home",
     "link": "https://www.hometech.fm/shows/577",
@@ -13,5 +6,5 @@
     "desc": "On this week\u2019s show: SwitchBot flips the switch on Nanoleaf, eero dials back to the landline era with a new Telephone Adapter, Home Assistant welcomes Sensereo\u2019s smoke and CO alarms, and the latest Ho",
     "artwork": "https://images.squarespace-cdn.com/content/v1/52d92d1ee4b049910d1d83b1/2e98aad9-8107-41f5-a9ba-51798c43a31f/eero-phone-home.png?format=1500w"
   },
-  "fetchedAt": "2026-06-09T22:19:27.200971+00:00"
+  "fetchedAt": "2026-06-10T02:52:35.463570+00:00"
 }
