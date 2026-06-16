@@ -1,11 +1,4 @@
 {
-  "youtube": {
-    "videoId": "L21C9FbR1Vw",
-    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
-    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
-    "pubDate": "2026-03-18T21:45:24+00:00",
-    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
-  },
   "podcast": {
     "title": "Episode 578 - Furry Friend Detection",
     "link": "https://www.hometech.fm/shows/578",
@@ -13,5 +6,5 @@
     "desc": "On this week&#x27;s show: Apple Home gets Thread 1.4, 4K video, and energy tracking, Amazon gives the Echo Hub a makeover with smarter Ring features, and Google teaches Nest cams to recognize your pet",
     "artwork": "https://cdn.sanity.io/images/k0cku21p/production/586817ba75ba7ded41378a2cc68b287b91611638-1254x1254.png"
   },
-  "fetchedAt": "2026-06-15T22:59:07.970013+00:00"
+  "fetchedAt": "2026-06-16T03:34:24.720271+00:00"
 }
