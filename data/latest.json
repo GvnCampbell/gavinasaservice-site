@@ -1,4 +1,11 @@
 {
+  "youtube": {
+    "videoId": "L21C9FbR1Vw",
+    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
+    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
+    "pubDate": "2026-03-18T21:45:24+00:00",
+    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
+  },
   "podcast": {
     "title": "Episode 579 - Roku is FOX'd",
     "link": "https://www.hometech.fm/shows/579",
@@ -6,5 +13,5 @@
     "desc": "On this week&#x27;s show: Alexa+ finally opens up across Canada in English and French, Prime Day deals are already leaking out of Amazon\u2019s cart, Fox wants to buy Roku in a massive streaming-and-ads pl",
     "artwork": "https://cdn.sanity.io/images/k0cku21p/production/9616f868d6ded518217677e7f74d1918dcbb20ed-1254x1254.png"
   },
-  "fetchedAt": "2026-06-23T06:45:19.803713+00:00"
+  "fetchedAt": "2026-06-23T11:55:48.073091+00:00"
 }
