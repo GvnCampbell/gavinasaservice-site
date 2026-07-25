@@ -1,17 +1,10 @@
 {
-  "youtube": {
-    "videoId": "L21C9FbR1Vw",
-    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
-    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
-    "pubDate": "2026-03-18T21:45:24+00:00",
-    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
-  },
   "podcast": {
-    "title": "Episode 582 - Which Switch is Which?",
-    "link": "https://www.hometech.fm/shows/582",
-    "pubDate": "Fri, 17 Jul 2026 12:00:00 +0000",
-    "desc": "On this week&#x27;s show: Apple wants smarter Home cameras, but only if you spring for the 2TB iCloud plan, IKEA quietly makes Matter less annoying, and Matter cameras from Tapo, Aqara, EZVIZ, and fri",
-    "artwork": "https://cdn.sanity.io/images/k0cku21p/production/d94208a2cdcd0c70262a0b0079e06294a8fb4ad2-1672x941.png"
+    "title": "Episode 583 - OpenAI Wants In, Nice Wants Out",
+    "link": "https://www.hometech.fm/shows/583",
+    "pubDate": "Sat, 25 Jul 2026 03:00:00 +0000",
+    "desc": "On this week&#x27;s show: OpenAI may be building a screen-free AI home companion, Nice is skipping CEDIA 2026 and insisting everything is fine, the 2026 TV Shootout crowns both Samsung and Sony, Phili",
+    "artwork": "https://cdn.sanity.io/images/k0cku21p/production/76bf2dc8985ac95319b010d641fb5d36365527a5-1672x941.png"
   },
-  "fetchedAt": "2026-07-25T02:08:09.411924+00:00"
+  "fetchedAt": "2026-07-25T05:38:10.693312+00:00"
 }
