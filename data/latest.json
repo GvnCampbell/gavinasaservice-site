@@ -1,4 +1,11 @@
 {
+  "youtube": {
+    "videoId": "L21C9FbR1Vw",
+    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
+    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
+    "pubDate": "2026-03-18T21:45:24+00:00",
+    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
+  },
   "podcast": {
     "title": "Episode 585 - Bad Gavin, Smart Donut",
     "link": "https://www.hometech.fm/shows/585",
@@ -6,5 +13,5 @@
     "desc": "On this week&#x27;s show: CEDIA Expo 2026 is almost here with hundreds of product debuts on deck, GE talks up US-made chips in connected laundry, Home Assistant finds a new way to boss around Apple de",
     "artwork": "https://cdn.sanity.io/images/k0cku21p/production/aab50e9497dd4f8f16ae165991c3548679d6ff1d-3344x1882.png"
   },
-  "fetchedAt": "2026-08-22T06:29:20.982196+00:00"
+  "fetchedAt": "2026-08-22T09:20:58.964548+00:00"
 }
