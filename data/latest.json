@@ -1,4 +1,11 @@
 {
+  "youtube": {
+    "videoId": "L21C9FbR1Vw",
+    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
+    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
+    "pubDate": "2026-03-18T21:45:24+00:00",
+    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
+  },
   "podcast": {
     "title": "Episode 589 - A Person Living in Your Doorbell",
     "link": "https://www.hometech.fm/shows/589",
@@ -6,5 +13,5 @@
     "desc": "On this week&#x27;s show: CEDIA says the crowds showed up, Apple unveiled a foldable iPhone, LG is pushing back on smart TV spying claims, Google wants outside AI agents in your home, Aqara and IKEA b",
     "artwork": "https://cdn.hometech.fm/feed-covers/8b1d50c12f7423d492d27ba0527d45651b8a326cf4fa7dba001cab3aaa5ebe96.jpg"
   },
-  "fetchedAt": "2026-09-26T03:06:07.772711+00:00"
+  "fetchedAt": "2026-09-26T10:39:21.479684+00:00"
 }
