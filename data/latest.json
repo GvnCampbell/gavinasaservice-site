@@ -1,4 +1,11 @@
 {
+  "youtube": {
+    "videoId": "L21C9FbR1Vw",
+    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
+    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
+    "pubDate": "2026-03-18T21:45:24+00:00",
+    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
+  },
   "podcast": {
     "title": "Episode 592 - The Theme is Updates",
     "link": "https://www.hometech.fm/shows/592",
@@ -6,5 +13,5 @@
     "desc": "On this week&#x27;s show: Apple\u2019s smart home plans keep leaking from every direction, with LG-branded locks, doorbells, thermostats, and cameras rumored alongside Apple selling Aqara\u2019s new thermostat;",
     "artwork": "https://cdn.hometech.fm/feed-covers/8f84a1fdb3bbe9daa6e43141c52386baa950a5da63aa2bf3c55b7419cc7d9c3f.jpg"
   },
-  "fetchedAt": "2026-10-10T03:55:12.870132+00:00"
+  "fetchedAt": "2026-10-10T11:45:24.530938+00:00"
 }
