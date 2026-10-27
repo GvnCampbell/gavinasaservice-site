@@ -1,11 +1,4 @@
 {
-  "youtube": {
-    "videoId": "L21C9FbR1Vw",
-    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
-    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
-    "pubDate": "2026-03-18T21:45:24+00:00",
-    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
-  },
   "podcast": {
     "title": "Episode 594 - Happy Foldy Friday",
     "link": "https://www.hometech.fm/shows/594",
@@ -13,5 +6,5 @@
     "desc": "On this week&#x27;s show: The iPhone Duo shipments arrive this week, TP-Link tries to assemble routers in the US while also collecting lawsuits, hackers turn old D-Link and Ubiquiti gear into bandwidt",
     "artwork": "https://cdn.hometech.fm/feed-covers/c869423f3d5bba8e29ce809b7e9eccdb391125c664f119bdba70ede8958b9009.jpg"
   },
-  "fetchedAt": "2026-10-26T22:11:36.881116+00:00"
+  "fetchedAt": "2026-10-27T03:21:27.543078+00:00"
 }
