@@ -1,11 +1,4 @@
 {
-  "youtube": {
-    "videoId": "L21C9FbR1Vw",
-    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
-    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
-    "pubDate": "2026-03-18T21:45:24+00:00",
-    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
-  },
   "podcast": {
     "title": "Episode 595 - Taking Back the TVs",
     "link": "https://www.hometech.fm/shows/595",
@@ -13,5 +6,5 @@
     "desc": "On this week&#x27;s show: Sony may be done with standalone UHD Blu-ray players, HACS gets folded into Home Assistant as the Marketplace, SMLIGHT tries Zigbee over Ethernet, and Ubiquiti keeps expandin",
     "artwork": "https://cdn.hometech.fm/feed-covers/106b54f36c85d3793b2478c83d059a0de003d42130081bb22b3acb3273c97d47.jpg"
   },
-  "fetchedAt": "2026-10-30T21:52:27.307478+00:00"
+  "fetchedAt": "2026-10-31T03:43:49.688042+00:00"
 }
