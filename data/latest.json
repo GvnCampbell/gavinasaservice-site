@@ -1,4 +1,11 @@
 {
+  "youtube": {
+    "videoId": "L21C9FbR1Vw",
+    "title": "Shelly Gen4 Smart Plugs and Leak Sensor #shorts #shelly #smarthome #homeassistant #zigbee #matter",
+    "link": "https://www.youtube.com/shorts/L21C9FbR1Vw",
+    "pubDate": "2026-03-18T21:45:24+00:00",
+    "thumb": "https://img.youtube.com/vi/L21C9FbR1Vw/maxresdefault.jpg"
+  },
   "podcast": {
     "title": "Episode 597 - Ring (Finally) Takes Flight",
     "link": "https://www.hometech.fm/shows/597",
@@ -6,5 +13,5 @@
     "desc": "On this week&#x27;s show: Apollo has a busy week with Community Day, a new H-3 holiday ornament, and a CAST PRO-1 for whole-home audio tinkerers; Ring is shipping a flying indoor camera while Amazon g",
     "artwork": "https://cdn.hometech.fm/feed-covers/c39526a742088f3ab4fc00e7dd089922c22e9ea33eb78bbcbf600711ed1dd450.jpg"
   },
-  "fetchedAt": "2026-11-16T00:37:38.478237+00:00"
+  "fetchedAt": "2026-11-16T10:31:21.728305+00:00"
 }
